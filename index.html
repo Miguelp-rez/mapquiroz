@@ -1,0 +1,158 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      
+      <title>Miguel Quiroz</title>
+      
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <link rel="shortcut icon" href="./img/ceremonio.png">
+      <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/main.css">
+
+      <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+      <header>
+
+        <nav class="navbar navbar-static-top navbar-inverse" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuCurso">
+                <span class="sr-only">Span / Hide Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menuCurso">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Learning<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="./ccna.html">CCNA</a></li>
+                    <li><a href="./devasc.html">DEVASC</a></li>
+                  </ul>
+                </li>
+                <li><a href="./about.html">About me</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <img src="./img/banner.png" alt="" id="banner">
+
+      </header>
+
+      <!--Seccion principal de la página-->
+      <section class="main container" id="main">
+
+        <div class="row">
+
+          <section class="col-md-9">
+            <article class="post">
+              <h2 class="titular">Whoami</h2>
+              <img src="./img/ccna.png" alt="" id="ccna_logo">
+              <p class="contenido text-justify" id="intro">I recently graduated from UNAM in Computer Engineering. I am passionate about computer networking and I really enjoy teaching. I recently passed my CCNA exam, and I am now studying for Cisco’s DevNet Associate certification. My solution to some network automation problems are up on GitHub to hopefully help other people in their studies. Feel free to check those out.</p>
+              <div class="botones">
+                <a href="./about.html" class="btn btn-primary">More</a>
+              </div>
+            </article>
+          </section>
+
+          <!--Barra lateral-->
+          <aside class="col-md-3 hidden-xs hidden-sm">
+            <h3>Find me</h3>
+            <a href="https://www.linkedin.com/in/mapquiroz/" class="list-group-item"><h4>LinkedIn</h4></a>
+
+            <a href="https://github.com/Miguelp-rez/" class="list-group-item"><h4>GitHub</h4></a>
+
+            <a href="https://twitter.com/_miguelquiroz_" class="list-group-item"><h4>Twitter</h4></a>
+          </aside>
+
+        </div>
+
+        <div class="row">
+        	<div class="col-md-12">
+ 
+ 				<h2>My NFT collection</h2>
+	 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    			<!-- Indicators -->
+    			<ol class="carousel-indicators">
+      				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      				<li data-target="#myCarousel" data-slide-to="1"></li>
+      				<li data-target="#myCarousel" data-slide-to="2"></li>
+    			</ol>
+
+    			<!-- Wrapper for slides -->
+    			<div class="carousel-inner">
+      				<div class="item active" align="center">
+        				<img src="./img/precipice.png" alt="precipice" id="cUno">
+      				</div>
+
+      				<div class="item" align="center">
+        				<img src="./img/stallion.png" alt="stallion" id="cDos">
+      				</div>
+    
+      				<div class="item" align="center">
+        				<img src="./img/ceremonio.png" alt="ceremonio" id="cTres">
+      				</div>
+    			</div>
+
+    			<!-- Left and right controls -->
+    			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      				<span class="glyphicon glyphicon-chevron-left"></span>
+      				<span class="sr-only">Previous</span>
+    			</a>
+    			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+      				<span class="glyphicon glyphicon-chevron-right"></span>
+      				<span class="sr-only">Next</span>
+    			</a>
+  				</div>
+			</div>
+
+			<section class=col-md-12>
+        		<h2>Recent blog posts</h2>
+              <a href="./blog.html" class="list-group-item">
+                <h4>CentOS networking</h4>
+                <p>Useful configuration and show commands.</p>
+              </a>
+            	<a href="./blog.html" class="list-group-item">
+            		<h4>VIM cheatsheet</h4>
+            		<p>Commonly used vim commands.</p>
+            	</a>
+            	<a href="./blog.html" class="list-group-item">
+            		<h4>SSH server</h4>
+            		<p>Configuration and best practices</p>
+            	</a>
+            	<a href="./blog.html" class="list-group-item">
+            		<h4>DHCP server</h4>
+            		<p>Installation and configuration of IPv4 DHCP server</p>
+            	</a>
+            	<br>
+            	<a href="./blog.html" class="btn btn-primary" id="all_posts">All blog posts</a>
+        	</section>
+        </div>
+      </section>
+
+		<footer>
+			<div class="row">
+				<p align="center">Miguel Quiroz 2022<br> All rights reserved</p>
+			</div>
+		</footer>
+
+        <script src="js/vendor/jquery-1.11.2.min.js""></script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

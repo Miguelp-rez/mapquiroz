@@ -1,0 +1,79 @@
+.navbar {
+	margin-bottom: 0px;
+   	background color: rgba(0, 0, 0, 0.9);
+   	border-color: transparent;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#aurumLogo{
+	width: 30%;
+    height: auto;
+    float: left;
+}
+#intro{
+	font-size: 18px;
+}
+#allDates{
+	float: right;
+}
+#cUNO{
+	width: 100%;
+	height: auto;
+}
+
+#Stefan{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+#Pato{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+#Angie{
+	width: 40%;
+	height: auto;
+	float: right;
+}
+
+#Angie_btn{
+	float: right;
+}
+
+#Dunnie_btn{
+	float: right;
+}
+
+#Dunnie{
+	width: 40%;
+	height: auto;
+	float: right;
+}
+
+.fotos{
+	width: 300px;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
